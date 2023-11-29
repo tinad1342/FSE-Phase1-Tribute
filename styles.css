@@ -8,12 +8,15 @@
 }
 
 #title {
-    font-size: 200%; 
+    font-size: 4rem; 
     padding-top: 20px;
+    margin-bottom: 0;
 }
 
 img {
-    max-width: 25%;
+    max-width: 100%;
+    width: 50%;
+    height: auto;
     display: block;
     margin: 0 auto;
 }
@@ -24,3 +27,17 @@ img {
     margin: 10px 100px;
 }
 
+ul {
+    max-width: 600px;
+    margin: 0 auto 50px auto;
+    text-align: left;
+    line-height: 1.6;
+  }
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
